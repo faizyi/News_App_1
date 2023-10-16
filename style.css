@@ -1,0 +1,107 @@
+@font-face {
+    font-family: newsapp;
+    src: url(./fonts/Kanit-BoldItalic.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: newsapp;
+}
+body{
+    width: 100% !important;
+    height: 100vh !important;
+    background-color: black !important;
+}
+#news{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    margin-top: 100px;
+}
+.navbar{
+    background-color: black;
+    box-shadow: 1px 1px 5px blue;
+    position: fixed !important;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 1;
+}
+.card{
+    margin: 10px;
+    background-color: black !important;
+    color: white !important;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px rgb(0, 0, 255);
+}
+.card:hover{
+    text-shadow: 1px 1px 2px white;
+}
+
+.card-btn{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    border: 1px solid white;
+    border-radius: 5px;
+
+}
+button{
+    width: 50px;
+    font-size: 25px !important;
+    background-color: black;
+    color: white;
+    border: none;
+    
+}
+.card-title{
+    background-color: white;
+    color: black !important;
+    text-align: center;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 0px;
+    height: 40px;
+    border-radius: 30px;
+    padding: 15px 20px;
+    transition: .9s ease;
+}
+.search:hover{
+    width: 350px;
+}
+
+input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+i{
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.searchbtn{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+
+
+
+
+h1{
+    color: white !important;
+    cursor: pointer !important;
+}
+
